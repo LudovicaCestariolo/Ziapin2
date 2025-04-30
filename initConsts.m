@@ -216,7 +216,7 @@ switch(flag)
         CONSTANTS(:,79) = CONSTANTS(:,13)+11;                              % t2 [ms]
         CONSTANTS(:,80) = CONSTANTS(:,13)+20;                              % t3 [ms]
         CONSTANTS(:,81) = CONSTANTS(:,13)+120;                             % t4 [ms]
-        CONSTANTS(:,82) = 0.93;                                            % Amax [-]
+        CONSTANTS(:,82) = 0.92;                                            % Amax [-]
         CONSTANTS(:,83) = 10;                                              % a
         CONSTANTS(:,84) = 15;                                              % b
         CONSTANTS(:,85) = 6;                                               % c
@@ -245,10 +245,10 @@ switch(flag)
         CONSTANTS(:,94) = 1.01;                                                 % Lambda2
         CONSTANTS(:,95) = 0.2203;                                               % Beta_ns [-]
         CONSTANTS(:,96) = 1.411;                                                % r
-        CONSTANTS(:,97) = 3.6121e-04;                                           % G_ns [mS]
+        CONSTANTS(:,97) = 3.6121e-04;                                           % g_ns [mS]
         CONSTANTS(:,98) = 0.8742;                                               % Beta_Ko [-]
-        CONSTANTS(:,99) = 4.4873e-04;                                           % G_Ko
-        CONSTANTS(:,100) = 4.0386e-04;                                          % G_CaP
+        CONSTANTS(:,99) = 4.4873e-04;                                           % g_Ko
+        CONSTANTS(:,100) = 4.0386e-04;                                          % g_CaP
         CONSTANTS(:,101) = 74;                                                  % Diel_const (water 37 °C)
         CONSTANTS(:,102) = 1.82*10^6*(CONSTANTS(:,101)*CONSTANTS(:,11))^(-1.5); % Const_A
     
@@ -263,7 +263,7 @@ switch(flag)
         CONSTANTS(:,79) = CONSTANTS(:,13)+11;                              % t2 [ms]
         CONSTANTS(:,80) = CONSTANTS(:,13)+200;                             % t3 [ms]
         CONSTANTS(:,81) = CONSTANTS(:,13)+300;                             % t4 [ms]
-        CONSTANTS(:,82) = 0.93;                                            % Amax [-]
+        CONSTANTS(:,82) = 0.92;                                            % Amax [-]
         CONSTANTS(:,83) = 10;                                              % a
         CONSTANTS(:,84) = 15;                                              % b
         CONSTANTS(:,85) = 6;                                               % c
@@ -288,14 +288,14 @@ switch(flag)
         CONSTANTS(:,92) = sol(7);                                          % l
     
         % SACs
-        CONSTANTS(:,93) = 1.0015;                                                % Lambda1
-        CONSTANTS(:,94) = 1.01;                                                % Lambda2
+        CONSTANTS(:,93) = 1.0015;                                               % Lambda1
+        CONSTANTS(:,94) = 1.01;                                                 % Lambda2
         CONSTANTS(:,95) = 0.2203;                                               % Beta_ns [-]
         CONSTANTS(:,96) = 1.411;                                                % r
-        CONSTANTS(:,97) = 3.6121e-04;                                           % G_ns [mS]
+        CONSTANTS(:,97) = 3.6121e-04;                                           % g_ns [mS]
         CONSTANTS(:,98) = 0.8742;                                               % Beta_Ko [-]
-        CONSTANTS(:,99) = 4.4873e-04;                                           % G_Ko
-        CONSTANTS(:,100) = 4.0386e-04;                                          % G_CaP
+        CONSTANTS(:,99) = 4.4873e-04;                                           % g_Ko
+        CONSTANTS(:,100) = 4.0386e-04;                                          % g_CaP
         CONSTANTS(:,101) = 74;                                                  % Diel_const (water 37 °C)
         CONSTANTS(:,102) = 1.82*10^6*(CONSTANTS(:,101)*CONSTANTS(:,11))^(-1.5); % Const_A
     

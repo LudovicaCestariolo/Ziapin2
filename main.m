@@ -1,8 +1,8 @@
 function [VOI,STATES,ALGEBRAIC,CONSTANTS] = main()
     
-clear; close all; clc;
+% clear; close all; clc;
 
-protocol = 3;   % protocol = 0 --> Control
+protocol = 2;   % protocol = 0 --> Control
                 % protocol = 1 --> ZiaPina2 electric stimulation
                 % protocol = 2 --> ZiaPina2 dark-light 20 ms
                 % protocol = 3 --> ZiaPina2 dark-light 200 ms
